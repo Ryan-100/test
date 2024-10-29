@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "a1ce",
+    "slug": "a1ce",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "a1ce",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+     "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cmkl.a1ce",
+      "inforPlist":{
+        "CFBundleURLTypes":[
+          {
+            "CFBundleURLSchemes":["com.googleusercontent.apps.299971573994-vr2pcbjsr9dijbru1d5cc198516cr656"]
+          }
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.cmkl.a1ce"
+    }, 
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin",
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
